@@ -1,0 +1,37 @@
+.expertise {
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    .col {
+      padding: 0 25px;
+      h3 {
+        padding: 25px 0 15px;
+      }
+      p {
+        line-height: 25px;
+      }
+    }
+  }
+}
+@include respondTo('smartphone') {
+  .expertise {
+    &__wrapper {
+      flex-direction: column;
+      .col {
+        padding: 50px 0;
+        .skills__wrapper {
+          img {
+            padding: 35px 0 20px 0;
+          }
+        }
+        h3 {
+          padding: 10px 0 0;
+        }
+        &:not(:last-child) {
+          border-bottom: 1px solid transparentize($primary-font-color, .8);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import '../helpers/variables';
+
+.about-us {
+  &__wrapper {
+    max-width: 650px;
+    color: $primary-color;
+    h2 {
+      line-height: 40px;
+    }
+    &--separate {
+      padding: 40px 0;
+    }
+  }
+}
+@include respondTo('smartphone') {
+  .about-us {
+    &__wrapper {
+      max-width: 97%;
+      h2 {
+        font-size: 22px;
+      }
+    }
+  }
+}

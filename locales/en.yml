@@ -1,0 +1,126 @@
+---
+en:
+  header:
+    contact: 'Contact Us'
+    link: 'me@truongbrian.com'
+  hero:
+    subtitle: 'Level up your bussiness, we are'
+    title: 'Your tech partner in crime'
+  about_us:
+    title: 'About Us'
+    description: 'We work to grow and maintain a transparent collaboration that extends beyond a launch date. From concept to delivery, we offer solutions that will ensure a successful product.'
+    sub_description: 'That’s the way we do it.'
+    cta: 'Know who we are'
+    url: 'about.html'
+  expertise:
+    title: 'Expertise'
+    expertises:
+      - image: 'web.svg'
+        title: 'Web / Mobile Development'
+        content: 'We use our expertise in a variety of technologies to craft code that opens the door for ongoing iterations with our clients users.'
+        skill_list:
+          - skill: 'Ruby on Rails'
+          - skill: 'React'
+          - skill: 'Python / Django'
+          - skill: 'IOS'
+          - skill: 'Android'
+          - skill: 'React Native'
+
+      - image: 'product.svg'
+        title: 'Product Design'
+        content: 'Everyone wants an award winning app, but getting to 5 stars isn’t easy. We partner with companies to create strategies that guide them to success.'
+        skill_list:
+          - skill: 'Sprint Design'
+          - skill: 'Research'
+          - skill: 'Usability/UX'
+          - skill: 'User Interface Design'
+          - skill: 'Mobile Design'
+          - skill: 'User Growth'
+
+      - image: 'business.svg'
+        title: 'Business & Product Innovation'
+        content: 'Innovate and get ahead. Define your business goals and validate opportunities with fresh understanding of what your customers need most.'
+        skill_list:
+          - skill: 'Sprint Design'
+          - skill: 'Research'
+          - skill: 'Usability/UX'
+          - skill: 'User Interface Design'
+          - skill: 'Mobile Design'
+          - skill: 'User Growth'
+
+    cta: 'Get in Touch'
+  skills:
+    - development:
+      skill_list:
+        - skill: 'Ruby on Rails'
+        - skill: 'React'
+        - skill: 'Python / Django'
+        - skill: 'IOS'
+        - skill: 'Android'
+        - skill: 'React Native'
+    - product:
+      skill_list:
+        - skill: 'Sprint Design'
+        - skill: 'Research'
+        - skill: 'Usability/UX'
+        - skill: 'User Interface Design'
+        - skill: 'Mobile Design'
+        - skill: 'User Growth'
+    - business:
+      skill_list:
+        - skill: 'Sprint Design'
+        - skill: 'Research'
+        - skill: 'Usability/UX'
+        - skill: 'User Interface Design'
+        - skill: 'Mobile Design'
+        - skill: 'User Growth'
+  our_work:
+    title: 'Our Work'
+    projects:
+      - title: 'Trippio'
+        description: 'Perfect music companion on the road.'
+        link: 'trippio.html'
+        linktext: 'View Project'
+        cover: '../images/projects/trippio/cover.jpg'
+      - title: 'Lanai App'
+        description: 'The Official tourism App for Lanai, Hawai.'
+        link: 'lanai.html'
+        linktext: 'View Project'
+        cover: '../images/projects/lanai/cover.jpg'
+      - title: 'Showroom Exchange'
+        description: 'The tool to simplify client management.'
+        link: 'showroom.html'
+        linktext: 'View Project'
+        cover: '../images/projects/showroom/cover.jpg'
+  team:
+    title: 'Our Team'
+    people:
+      - name: 'Brian Truong'
+        image: '../images/team/brian.jpg'
+        description: 'A tech entrepreneur, most recently as Co-Founder and CEO of HelloToken, a content monetization platform using micro-surveys. Prior to that, he worked for The Blackstone Group, Bessemer Venture Partners, and four startups. Brian was a Thiel Fellow and graduated from Harvard with a Bachelors in Biology and Computer Science, where he co-founded Harvard Ventures.'
+        url: 'https://www.linkedin.com/in/truongbrian/'
+      - name: 'Eric Martin'
+        image: '../images/team/eric.jpg'
+        description: 'I have brought products to market in the underwater hardware space, the fantasy sports space and most recently in the consumer media space. Currently helping salespeople find what they are looking for. I also continue to run a non-profit in Stockton, CA called the SJSA that supports top local soccer players at the graduating high school level.'
+        url: 'https://www.linkedin.com/in/ericlongmartin/'
+      - name: 'David Pelaez Tamayo'
+        image: '../images/team/david.jpg'
+        description: 'Young designer with experience in user centered design. I have a strong understanding of the web. I am also a self taught Ruby on Rails developer and made my way to earn the founder badge with mistter.me. Currently looking forward to create startups for the south american markets where participation of European entrepreneur would be very enriching.'
+        url: 'https://www.linkedin.com/in/davidpelaez/'
+      - name: 'Luis Alvarez'
+        image: '../images/team/luis.jpg'
+        description: ' A Nomadic Design and Front End Maverick with 7+ years of design related experience. From technology to design, i use human centered design to help build amazing products for companies and startups. I also have 4+ years of international experience building digital products on teams around the world. Also interested in entrepreneurship, travel, and design innovation.'
+        url: 'https://www.linkedin.com/in/loualvarez/'
+  footer_top:
+    title: "Let's make something awesome together!"
+    subtitle: 'Wondering Next Steps?'
+    cta: 'Get in Touch'
+  footer_bottom:
+    copyright: '© 2017 Arepa.co'
+    social:
+      - name: 'Twitter'
+        link: 'index.html'
+      - name: 'Instagram'
+        link: 'index.html'
+      - name: 'Dribbble'
+        link: 'index.html'

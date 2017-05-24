@@ -1,0 +1,41 @@
+<section class='our-work'>
+  <div class="vertical">
+    <div class="vertical__bar">_</div>
+    <h5><%= t('our_work.title') %></h5>
+  </div>
+  <div class='our-work__wrapper'>
+    <div id="slides">
+      <input class='indicators' checked type="radio" name="slider" id="slide1"/>
+      <input class='indicators middle' type="radio" name="slider" id="slide2"/>
+      <input class='indicators' type="radio" name="slider" id="slide3"/>
+
+      <div class="mask">
+        <div class="overflow">
+          <% t('our_work.projects').each do |project| %>
+          <div class="slide">
+            <div class='our-work__wrapper--image'>
+              <img src='<%= project[:cover] %>' />
+            </div>
+            <div class='our-work__wrapper--description'>
+              <h2><%= project[:title] %></h2>
+              <h6><%= project[:description] %></h6>
+              <a href='<%= project[:link] %>'>
+                <%= project[:linktext] %>
+                <img src='images/arrow_right.svg' />
+              </a>
+            </div>
+          </div>
+          <% end %>
+        </div>
+
+      </div>
+
+      <div id="controls" onclick="">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+      </div>
+
+    </div>
+  </div>
+</section>

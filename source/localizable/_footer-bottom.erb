@@ -1,0 +1,12 @@
+<section class='footer-bottom'>
+  <div class='footer-bottom__wrapper'>
+    <div class='footer-bottom__left'>
+      <p><%= t('footer_bottom.copyright') %></p>
+    </div>
+    <div class='footer-bottom__right'>
+      <% t('footer_bottom.social').each do |data| %>
+        <a href='<%= data[:link] %>'><%= data[:name] %></a>
+      <% end %>
+    </div>
+  </div>
+</section>

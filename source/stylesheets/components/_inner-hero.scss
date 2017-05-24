@@ -1,0 +1,49 @@
+.inner-hero {
+  color: white;
+  background: $primary-color;
+  height: 40vh;
+  &__wrapper {
+    height: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: center;
+    h1 {
+      padding: 20px 0 20px;
+    }
+    h1, small {
+      margin: 0 auto;
+    }
+    small {
+      line-height: 1.7;
+      width: 80vh;
+    }
+  }
+}
+@include respondTo('smartphone') {
+  .inner-hero {
+    height: 50vh;
+    background-size: cover;
+    &__wrapper {
+      max-width: 100%;
+      padding: 30px;
+      small {
+        align-self: flex-start;
+        font-size: 14px;
+        line-height: 1.4;
+        width: 100%;
+      }
+      h1 {
+        font-size: 35px;
+        line-height: 1.2;
+      }
+    }
+    &:after {
+      top: 55vh;
+      height: 85px;
+    }
+  }
+}

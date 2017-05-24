@@ -1,0 +1,78 @@
+@import '../helpers/variables';
+
+section {
+
+  .hide-on-desktop {
+    display: none;
+  }
+
+  &:not(.full-width) {
+    position: relative;
+    max-width: 1024px;
+    margin: 13vh auto 10vh auto;
+    padding: 0 30px 50px 30px;
+  }
+  &:not(.no-border) {
+    border-bottom: 1px solid transparentize($primary-font-color, .8);
+  }
+  &.expertise {
+    margin-bottom: 0;
+  }
+  &.skills {
+    margin-top: 0;
+  }
+  &.footer-top {
+    margin-bottom: 40px;
+  }
+  &.footer-bottom {
+    border-bottom: none;
+    margin: 0 auto;
+  }
+}
+.vertical {
+  position: absolute;
+  top: 8vh;
+  left: -80px;
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+  float: left;
+  &__bar {
+    position: relative;
+    bottom: 5px;
+  }
+}
+@include respondTo('smartphone') {
+  section {
+
+    .hide-on-mobile {
+      display: none;
+    }
+    .hide-on-desktop {
+      display: flex;
+    }
+
+    &:not(.full-width) {
+      max-width: 100%;
+      margin: 13vh 0 10vh 0;
+      padding: 0 0 50px 0;
+    }
+    &.about-us {
+      padding: 0 30px 50px 30px;
+      margin-bottom: 50px;
+    }
+    &.expertise {
+      padding: 0 30px;
+      margin: 0;
+    }
+    &.skills {
+      margin-top: 0;
+    }
+    &.footer-top {
+      margin-bottom: 40px;
+    }
+    &.footer-bottom {
+      border-bottom: none;
+      margin: 0 auto;
+    }
+  }
+}

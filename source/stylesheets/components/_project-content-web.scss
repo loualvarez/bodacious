@@ -1,0 +1,31 @@
+.project-content-web {
+  background-color: $projects-background;
+  margin-bottom: 50px;
+  padding: 50px 0;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .img-container {
+      flex-direction: column;
+      margin: 50px 0;
+      img {
+        image-rendering: crisp-edges;
+        width: 80vh;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@include respondTo('smartphone') {
+  .project-content-web {
+    &__wrapper {
+      .img-container {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<section class='skills'>
+  <div class='skills__wrapper hide-on-mobile'>
+    <% t('skills').each do |data| %>
+      <div class="col">
+        <img src="images/spring.svg">
+        <% data[:skill_list].each do |type| %>
+          <p><%= type[:skill] %></p>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+  <button class='js-mailto button button__orange'><%= t('expertise.cta') %></button>
+</section>

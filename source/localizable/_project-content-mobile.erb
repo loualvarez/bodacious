@@ -1,0 +1,13 @@
+<section class="project-content-mobile full-width no-border">
+  <div class="vertical">
+    <div class="vertical__bar">_</div>
+    <h5>Imagery</h5>
+  </div>
+  <div class="project-content-mobile__wrapper">
+      <% current_page.data.images.each do |f| %>
+      <div class="img-container">
+        <img src="<%= f %>" alt="">
+      </div>
+      <% end %>
+  </div>
+</section>

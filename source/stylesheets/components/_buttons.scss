@@ -1,0 +1,30 @@
+.button {
+  font-family: 'Circular';
+  background: transparent;
+  padding: $big-button-padding;
+  font-size: 18px;
+  &__white {
+    padding: $button-padding;
+    border: 1px solid lighten($primary-font-color, 20%);
+    color: white;
+  }
+  &__orange{
+    border: 1px solid $secondary-color;
+    color: $secondary-color;
+  }
+}
+
+a {
+  color: rgba(#000, 0.7);
+  &:focus,
+  &:hover {
+    color: rgba(#000, 0.6);
+  }
+}
+
+@include respondTo('smartphone') {
+  .button {
+    font-size: 16px;
+    padding: $small-button-padding;
+  }
+}

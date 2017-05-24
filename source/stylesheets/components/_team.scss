@@ -1,0 +1,85 @@
+.team {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 1024px;
+    .row {
+      display: flex;
+      margin: 5vh auto;
+      text-align: left;
+      flex-direction: row;
+      align-items: center;
+      &-picture {
+        padding-right: 50px;
+      }
+      &:nth-child(even) {
+        text-align: right;
+        flex-direction: row-reverse;
+        .row-picture {
+          padding-right: 0;
+          padding-left: 50px;
+        }
+      }
+      a {
+        color: $primary-color;
+      }
+      h3 {
+        margin: 0;
+        padding: 15px 0 0 0;
+      }
+      p {
+        line-height: 25px;
+      }
+      img {
+        overflow: hidden;
+        border-radius: 100px;
+        width: 200px;
+      }
+      small {
+        display: block;
+        padding: 15px 0 30px 0;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+@include respondTo('smartphone') {
+  .team {
+    &__wrapper {
+      flex-direction: column;
+      width: 100%;
+      .row {
+        flex-direction: column;
+        padding: 50px 0;
+        margin: 0 auto;
+        width: 80vw;
+        text-align: center;
+        &-picture {
+          padding: 0 0 40px;
+        }
+        &:nth-child(even) {
+          flex-direction: column;
+          text-align: center;
+          .row-picture {
+            padding: 0 0 40px;
+          }
+        }
+        .skills__wrapper {
+          img {
+            padding: 35px 0 20px 0;
+          }
+        }
+        h3 {
+          padding: 10px 0 0;
+        }
+        &:not(:last-child) {
+          border-bottom: 1px solid $primary-font-color;
+        }
+        &:not(:first-child) {
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+}

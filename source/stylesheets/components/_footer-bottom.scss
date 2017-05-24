@@ -1,0 +1,22 @@
+.footer-bottom {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__right {
+    a {
+      padding: 0 6px;
+    }
+  }
+}
+@include respondTo('smartphone') {
+  .footer-bottom {
+    &__wrapper {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    &__left {
+      margin: 20px 0;
+    }
+  }
+}

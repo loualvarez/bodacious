@@ -1,0 +1,23 @@
+<section class="expertise no-border">
+  <div class="vertical">
+    <div class="vertical__bar">_</div>
+    <h5><%= t('expertise.title') %></h5>
+  </div>
+  <div class="expertise__wrapper">
+    <% t('expertise.expertises').each do |data| %>
+      <div class="col">
+        <img src='images/<%= data[:image] %>' />
+        <h3><%= data[:title] %></h3>
+        <p><%= data[:content] %></p>
+
+        <div class='skills__wrapper hide-on-desktop'>
+          <img src="images/spring.svg">
+          <% data[:skill_list].each do |type| %>
+            <p><%= type[:skill] %></p>
+          <% end %>
+        </div>
+
+      </div>
+    <% end %>
+  </div>
+</section>
