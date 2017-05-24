@@ -4,9 +4,15 @@
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
+activate :livereload
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
+
+# Active i18n for international website
+activate :i18n,
+        langs: [:es, :en],
+        mount_at_root: :en
 
 # Per-page layout changes
 page '/*.xml', layout: false

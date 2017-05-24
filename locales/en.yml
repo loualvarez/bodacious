@@ -2,15 +2,15 @@
 en:
   header:
     contact: 'Contact Us'
-    link: 'me@truongbrian.com'
+    link: ''
   hero:
     subtitle: 'Level up your bussiness, we are'
     title: 'Your tech partner in crime'
   about_us:
     title: 'About Us'
-    description: 'We work to grow and maintain a transparent collaboration that extends beyond a launch date. From concept to delivery, we offer solutions that will ensure a successful product.'
-    sub_description: 'That’s the way we do it.'
-    cta: 'Know who we are'
+    description: 'We are a close team of creative professionals working remotely. We are passionate about partnering with amazing people and organizations to provide exceptional custom solutions.'
+    sub_description: 'We build thoughtful products and experiences to elevate and empower ideas and organizations.'
+    cta: 'More About Us'
     url: 'about.html'
   expertise:
     title: 'Expertise'
@@ -41,13 +41,12 @@ en:
         title: 'Business & Product Innovation'
         content: 'Innovate and get ahead. Define your business goals and validate opportunities with fresh understanding of what your customers need most.'
         skill_list:
-          - skill: 'Sprint Design'
+          - skill: 'Baseline Evaluation'
           - skill: 'Research'
-          - skill: 'Usability/UX'
-          - skill: 'User Interface Design'
-          - skill: 'Mobile Design'
-          - skill: 'User Growth'
-
+          - skill: 'Opportunity Analysis'
+          - skill: 'Strategic Planning'
+          - skill: 'Branding Strategy'
+          - skill: 'Experience Strategy'
     cta: 'Get in Touch'
   skills:
     - development:
@@ -68,12 +67,12 @@ en:
         - skill: 'User Growth'
     - business:
       skill_list:
-        - skill: 'Sprint Design'
-        - skill: 'Research'
-        - skill: 'Usability/UX'
-        - skill: 'User Interface Design'
-        - skill: 'Mobile Design'
-        - skill: 'User Growth'
+          - skill: 'Baseline Evaluation'
+          - skill: 'Research'
+          - skill: 'Opportunity Analysis'
+          - skill: 'Strategic Planning'
+          - skill: 'Branding Strategy'
+          - skill: 'Experience Strategy'
   our_work:
     title: 'Our Work'
     projects:
@@ -95,18 +94,10 @@ en:
   team:
     title: 'Our Team'
     people:
-      - name: 'Brian Truong'
+      - name: 'Michael Rooney'
         image: '../images/team/brian.jpg'
         description: 'A tech entrepreneur, most recently as Co-Founder and CEO of HelloToken, a content monetization platform using micro-surveys. Prior to that, he worked for The Blackstone Group, Bessemer Venture Partners, and four startups. Brian was a Thiel Fellow and graduated from Harvard with a Bachelors in Biology and Computer Science, where he co-founded Harvard Ventures.'
         url: 'https://www.linkedin.com/in/truongbrian/'
-      - name: 'Eric Martin'
-        image: '../images/team/eric.jpg'
-        description: 'I have brought products to market in the underwater hardware space, the fantasy sports space and most recently in the consumer media space. Currently helping salespeople find what they are looking for. I also continue to run a non-profit in Stockton, CA called the SJSA that supports top local soccer players at the graduating high school level.'
-        url: 'https://www.linkedin.com/in/ericlongmartin/'
-      - name: 'David Pelaez Tamayo'
-        image: '../images/team/david.jpg'
-        description: 'Young designer with experience in user centered design. I have a strong understanding of the web. I am also a self taught Ruby on Rails developer and made my way to earn the founder badge with mistter.me. Currently looking forward to create startups for the south american markets where participation of European entrepreneur would be very enriching.'
-        url: 'https://www.linkedin.com/in/davidpelaez/'
       - name: 'Luis Alvarez'
         image: '../images/team/luis.jpg'
         description: ' A Nomadic Design and Front End Maverick with 7+ years of design related experience. From technology to design, i use human centered design to help build amazing products for companies and startups. I also have 4+ years of international experience building digital products on teams around the world. Also interested in entrepreneurship, travel, and design innovation.'
@@ -116,7 +107,7 @@ en:
     subtitle: 'Wondering Next Steps?'
     cta: 'Get in Touch'
   footer_bottom:
-    copyright: '© 2017 Arepa.co'
+    copyright: '© 2017 Bodacious Design'
     social:
       - name: 'Twitter'
         link: 'index.html'
